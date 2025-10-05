@@ -41,7 +41,7 @@ The primary output of the AeroGuard system is a vast, correlated dataset, ideal 
 - **Exposure Attribution**: Attribute exposure to sources (e.g., highway driving vs. garage entry).  
 
 ### 3. Policy and Infrastructure Support
-- **High-Resolution Pollution Maps**: Dynamic, block-by-block maps revealing localized hot spots.  
+- **High-Resolution Pollution Maps**: Dynamic, block-by-block maps revealing localised hot spots.  
 - **Infrastructure Effectiveness Analysis**: Measure impact of road layouts, green barriers, ventilation systems.  
 - **Traffic Management Optimization**: Use pollution correlations to recommend traffic light adjustments.  
 
@@ -52,7 +52,7 @@ The primary output of the AeroGuard system is a vast, correlated dataset, ideal 
 - **Comprehensive Environmental Data**: PM1.0, PM2.5, PM10 + temperature, humidity, pressure, gas resistance.  
 - **Chemical Sensing**: NO₂, CO, H₂S (via calibrated analog voltage).  
 - **Efficient Data Handling**: Buffered logging, batch SD writes every 10 minutes (600 entries).  
-- **Mandatory Warmup**: 30 min BME680 stabilization before logging.  
+- **Mandatory Warmup**: 30 min BME680 and Fermion MEMS gas sensor stabilisation before logging.  
 
 ---
 
