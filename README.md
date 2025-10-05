@@ -85,7 +85,7 @@ Arduino libraries required:
 ---
 
 ## ⚙️ Operational Procedure
-1. **Code Upload**: Upload `AeroGuard_ver4.ino` to ESP32.  
+1. **Code Upload**: Upload `AeroGuard_ver2.ino` to ESP32.  
 2. **Power On & Warmup**: OLED shows *Warmup* status. Wait 30 minutes for BME680 stabilization.  
 3. **Data Logging**: Logging begins automatically, 1 Hz. OLED shows GPS lock, PM2.5, buffer count.  
 4. **Data Write**: Every 600 entries (~10 min), data writes to SD (`WRITE COMPLETE` or `SD WRITE FAILED!`).  
