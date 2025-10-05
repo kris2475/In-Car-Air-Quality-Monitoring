@@ -35,12 +35,12 @@ The primary output of the AeroGuard system is a vast, correlated dataset, ideal 
 | Sensor Value Estimation | Impute missing sensor values using correlated features. | Multivariate Feature Set |
 | Filter Saturation Prediction | Forecast cabin filter replacement needs based on cumulative PM/gas exposure. | Time-Series Analysis |
 
-### 2. Actionable Insights and Behavioral Change (The *"So What"*)
+### 2. Actionable Insights and Behavioral Change
 - **Optimal Route Planning**: Navigation recommends *low-exposure* routes, not just fastest ones.  
 - **Intelligent Ventilation Control**: Automatically switch between fresh air and recirculation before pollution spikes.  
 - **Exposure Attribution**: Attribute exposure to sources (e.g., highway driving vs. garage entry).  
 
-### 3. Policy and Infrastructure Support (The *"Bigger Picture"*)
+### 3. Policy and Infrastructure Support
 - **High-Resolution Pollution Maps**: Dynamic, block-by-block maps revealing localized hot spots.  
 - **Infrastructure Effectiveness Analysis**: Measure impact of road layouts, green barriers, ventilation systems.  
 - **Traffic Management Optimization**: Use pollution correlations to recommend traffic light adjustments.  
