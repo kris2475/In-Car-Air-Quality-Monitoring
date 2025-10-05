@@ -28,7 +28,7 @@ The primary output of the AeroGuard system is a vast, correlated dataset, ideal 
 
 ## 🎯 Outcomes of Trained ML/DL Models
 
-### 1. Real-time Predictive Mapping (The *"What If"*)
+### 1. Real-time Predictive Mapping
 | Model Application | Description | Data Requirement |
 |-------------------|-------------|------------------|
 | Micro-Environment Forecasting | Predict pollution level (PM2.5, CO) at streets/tunnels before entering. | Geo-Tagged Spatiotemporal Data |
