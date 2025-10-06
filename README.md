@@ -105,6 +105,47 @@ particles_50um,particles_100um,
 bme_temperature_c,bme_humidity_percent,bme_pressure_hpa,bme_gas_resistance_ohms,
 no2_voltage_v,co_voltage_v,h2s_voltage_v
 
+---
+
+# 🌬️ Vehicle HVAC and Cabin State Logging
+
+While **AeroGuard** captures environmental data at high resolution, the interpretation of in-cabin air quality depends heavily on the vehicle’s own ventilation settings and cabin state.  
+The same external pollution levels can yield vastly different in-cabin exposure depending on how the HVAC system and windows are configured.
+
+---
+
+## 🔑 Key Parameters to Monitor
+
+- **Fan Speed** – Determines the rate of air exchange and pollutant ingress.  
+- **Airflow Direction** – Floor, face, windshield, or mixed; affects how pollutants are distributed within the cabin.  
+- **Fresh Air vs. Recirculation** – A critical determinant of pollutant penetration.  
+  - Recirculation mode often lowers particulate ingress but may increase CO₂ buildup.  
+- **Window Position** – Open/closed (or partially open) drastically alters exposure profiles, particularly in high-traffic or tunnel conditions.  
+
+---
+
+## 📡 Methods of Acquisition
+
+### 1. CAN Bus Signals
+- Many modern vehicles broadcast HVAC states via the **Controller Area Network (CAN)**.  
+- These can often be accessed using an **OBD-II or CAN interface** and decoded into usable data streams.  
+- Provides precise, digital logging without physical modification.  
+
+### 2. Physical Sensor Augmentation
+Where HVAC states are not available digitally, simple hardware sensors may be added:
+- Rotary encoders or Hall sensors on dials (fan speed, airflow selector).  
+- Reed switches or linear sensors for window open/close detection.  
+- Provides guaranteed ground truth independent of vehicle electronics.  
+
+---
+
+## 🌍 Why It Matters
+
+By synchronizing HVAC and cabin state data with pollutant measurements, **AeroGuard** enables:
+
+- **Accurate Attribution** – Determine whether a pollution spike was due to external environment or user settings (e.g., opening a window).  
+- **Exposure Modeling** – Build models that incorporate both environmental inputs and vehicle behaviors.  
+- **Adaptive Control Research** – Provide a data foundation for future automated HVAC control strategies that minimize human exposure.  
 
 ---
 
